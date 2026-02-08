@@ -1,0 +1,7 @@
+discord.py==2.3.2
+websocket-client==1.6.4
+Pillow==10.1.0
+qrcode[pil]==7.4.2
+pycryptodome==3.19.0
+httpx==0.25.2
+flask==3.0.0
