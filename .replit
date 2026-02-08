@@ -1,0 +1,13 @@
+language = "python3"
+run = "python main.py"
+
+[env]
+PYTHONUNBUFFERED = "1"
+
+[deployment]
+run = ["python", "main.py"]
+deploymentTarget = "autoscale"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
